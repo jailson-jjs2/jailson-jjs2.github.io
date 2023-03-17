@@ -1,5 +1,62 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+    
+    .header-container{
+        height: 50vh;
+        width: 50vw;
+        background-color: rgb(41, 159, 159);
+        background-image: none !important;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        box-sizing: border-box;
+        padding: 0 50px;
+        position: left;
+    }
+
+    .social-midia{
+        margin-top: 0rem;
+        display: none;
+        left: 4px !important;
+    }
+
+    .social-midia a{
+        text-decoration: none;
+        color: black;
+        padding: 0.5rem 1rem;
+        border-radius: 100px;
+        border: 2px solid black;
+        min-width: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .5s ease-in-out;
+    }
+
+    .header-container h1, h2 {
+        font-size: 3vw;
+    }
+    
+    .menu-itens ul li a{
+        font-size: 20px !important;
+        letter-spacing: 0;
+        margin-left: 200px !important;
+
+      }
+
+      .alinhaTexto {
+        display: none;
+
+      }
+
+}
+
 body{
     margin: 0;
     padding: 0;
